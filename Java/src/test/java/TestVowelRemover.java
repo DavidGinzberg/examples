@@ -28,6 +28,8 @@ public class TestVowelRemover {
 
         //Test 2:
     }
+
+    @Test
     public void TestVowelRemoverWithVowels(){
         //given
         String expected2 = "Wh nds vwls?";
@@ -39,6 +41,18 @@ public class TestVowelRemover {
 
         //then
         Assert.assertEquals(expected2, actual2);
+    }
+
+    @Test
+    public void testVowelRemoverEmtpyString(){
+        //given
+        String expected = ""; //the empty string, which should remain unchanged
+
+        //when
+        String actual = vr.removeVowels(expected); //We attempt to remove all vowels
+
+        //then
+        Assert.assertEquals(expected,actual); //it should remain unchanged
     }
 
 
