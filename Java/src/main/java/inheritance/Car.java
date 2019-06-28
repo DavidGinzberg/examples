@@ -1,3 +1,8 @@
+package inheritance;
+
+import inheritance.Tesla;
+import inheritance.Vehicle;
+
 public class Car extends Vehicle {
     //Vehicle is a "superclass" of Car; Car is a "subclass" of Vehicle
 

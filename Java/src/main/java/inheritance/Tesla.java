@@ -1,6 +1,6 @@
+package inheritance;
 
-
-public final class Tesla extends Car{
+public final class Tesla extends Car {
 
 
     static final int MAX_CHARGE = (int)(100 * 1.1);

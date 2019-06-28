@@ -1,3 +1,5 @@
+package inheritance;
+
 public class VehicleWash {
 
     public void wash(Vehicle v){
